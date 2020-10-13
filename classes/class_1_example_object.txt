@@ -1,0 +1,13 @@
+Object: John Smith
+
+Attributes:
+money_available (60)
+is_hungry (true)
+favorite_dish ("Salisbury Steak")
+patience (6)
+
+Methods:
+pay_bill (60-25=35 is the new money_available value)
+complain (patience dropped to 4 and triggered this method. patience dropped further to 3 as a result)
+eat_meal ( is_hungry = false)
+calculate_tip (25*0.20=5...money_available reduced to 30 now)
