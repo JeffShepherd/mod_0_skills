@@ -1,0 +1,14 @@
+Class: Patron
+
+Attributes:
+money_available (integer)
+is_hungry (boolean)
+favorite_dish (string)
+patience (integer - thinking of a 1-10 scale)
+
+
+Methods:
+pay_bill (this pays what the patron owes and decreases the money_available attribute)
+complain (this method uses the patience attribute as an input and voices concern if patience is below a certain threshold)
+eat_meal (the patron consumes the food and the is_hungry attribute changes from true to false)
+calculate_tip (this method determines the tip by multiplying the total bill by 0.20 and further decreases the money_available attribute)
