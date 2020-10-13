@@ -1,0 +1,14 @@
+Object: Back-right corner booth
+
+Attributes:
+seats_available (6)
+is_dirty (true)
+tabletop_color ("grey")
+level (true)
+
+
+Methods:
+add_chair (seats_available inscreases from 6 to 7 as a chair was added)
+clean_table (table wiped and is_dirty attribute updates to false)
+adjust_table_leg (nothing updates as the level attribute is already true)
+lay_tablecloth (lays tablecloth which updates tabletop_color attribute from "grey" to "white")
