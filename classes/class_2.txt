@@ -1,0 +1,14 @@
+Class: Table
+
+Attributes:
+seats_available (integer)
+is_dirty (boolean)
+tabletop_color (string)
+level (boolean)
+
+
+Methods:
+add_chair (adds an additional chair which increases the seats_available attribute)
+clean_table (wipes table which changes is_dirty attribute from true to false)
+adjust_table_leg (table leg is adjusted to stabilize table, which updates level attribute from false to true)
+lay_tablecloth (lays tablecloth which updates tabletop_color attribute from grey to white)
